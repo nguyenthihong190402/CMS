@@ -769,7 +769,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #2ace5e;
+  color: #000;
   text-decoration: none;
   -webkit-transition: all ease 0.35s;
   -moz-transition: all ease 0.35s;
@@ -2662,22 +2662,7 @@ section.top-job-section .section-title {
   color: #2ace5e;
 }
 
-.job-manager li.job-type,
-.job-types li.job-type,
-.job_listing li.job-type {
-  list-style: none;
-  font-size: 0.7778em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-  display: inline-block;
-  border: 1px solid #2ace5e;
-  border-radius: 40px;
-  padding: 5px 20px;
-  color: #2ace5e;
-  margin-top: 10px;
-  cursor: default;
-}
+
 
 .job-manager li.freelance,
 .job-types li.freelance,
@@ -7806,15 +7791,7 @@ RESPONSIVE STYLESHEET
   color: #121212;
 }
 
-/* Underline fixes */
-.entry-content a,
-.entry-summary a,
-.page-content a,
-.comment-content a,
-.widget .textwidget a {
-  color: #000;
-  text-decoration: underline;
-}
+
 
 .entry-content a:hover,
 .entry-summary a:hover,
@@ -8159,3 +8136,55 @@ RESPONSIVE STYLESHEET
 .wp-block-social-links {
   flex-wrap: wrap !important;
 }
+
+/* Start Style yeu cau 2 */
+.job-manager li.job-type,
+.job-types li.job-type,
+.job_listing li.job-type {
+  list-style: none;
+  /* font-size: 0.7778em;
+  text-transform: uppercase; */
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: inline-block;
+  /* border: 1px solid #2ace5e;
+  border-radius: 40px;
+  padding: 5px 20px;*/
+  color: rgb(0 0 0 / 50%);
+  /*margin-top: 10px; */
+  cursor: default;
+}
+
+.site-main .entry-content div.job_listings div.job_listings article .entry-title a {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.1112em;
+  line-height: 1.45em;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.bg{
+  margin: 0 0;
+  border-radius: 9px;
+  background:#eeeeee;
+}
+
+.site-main article .entry-content .job-title-wrap p {
+  margin: 0 0;
+  display: table;
+  width: 100%;
+}
+
+.site-main article .entry-content .entry-description p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  display: table;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* End Style yeu cau 2  */
